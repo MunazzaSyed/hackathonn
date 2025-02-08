@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React from "react";
 import { FaInstagram, FaTwitter, FaCcPaypal } from "react-icons/fa";
-import { IoMailSharp } from "react-icons/io5";
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
