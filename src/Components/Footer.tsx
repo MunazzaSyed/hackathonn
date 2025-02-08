@@ -1,12 +1,12 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { FaInstagram, FaTwitter, FaCcPaypal } from "react-icons/fa";
-import { TiSocialFacebookCircular } from "react-icons/ti";
+// import { FaInstagram, FaTwitter, FaCcPaypal } from "react-icons/fa";
+// import { TiSocialFacebookCircular } from "react-icons/ti";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
-import { RiLinkedinBoxLine, RiVisaLine } from "react-icons/ri";
-import { SiAmericanexpress } from "react-icons/si";
+// import { RiLinkedinBoxLine, RiVisaLine } from "react-icons/ri";
+// import { SiAmericanexpress } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -28,12 +28,12 @@ const Footer = () => {
             Vivamus tristique odio sit amet velit semper.
           </p>
           <div className="mt-4 flex gap-4">
-            <FaInstagram size={32} />
+            {/* <FaInstagram size={32} />
             <TiSocialFacebookCircular size={32} />
             <FaTwitter size={32} />
             <AiOutlineYoutube size={32} />
             <RiLinkedinBoxLine size={32} />
-          </div>
+          </div> */}
         </div>
 
         {/* Category Section */}
@@ -80,10 +80,11 @@ const Footer = () => {
         <p className="text-sm text-gray-500">
           © 2021 - Comforty - Designed & Developed by Munazza Abdul.Rehman
         </p>
-        <div className="flex gap-4">
-          <FaCcPaypal size={32} />
+          <div className="flex gap-4">
+            //</div>
+          {/* <FaCcPaypal size={32} />
           <SiAmericanexpress size={32} />
-          <RiVisaLine size={32} />
+          <RiVisaLine size={32} /> */}
         </div>
       </div>
     </main>
