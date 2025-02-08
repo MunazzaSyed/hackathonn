@@ -37,7 +37,7 @@ const ContactPage = () => {
                 fontSize: "1.125rem",
               }}
             >
-              <FaLocationDot style={{ color: "#06B6D4" }} />
+              <FaLocationDot color="#06B6D4" />
               <strong>Address:</strong>
             </div>
             <p style={{ color: "#4B5563" }}>
@@ -55,7 +55,7 @@ const ContactPage = () => {
                 fontSize: "1.125rem",
               }}
             >
-              <FaPhone style={{ color: "#06B6D4" }} />
+              <FaPhone color="#06B6D4" />
               <strong>Phone:</strong>
             </div>
             <p style={{ color: "#4B5563" }}>Mobile: +(84) 546-6789</p>
@@ -71,7 +71,7 @@ const ContactPage = () => {
                 fontSize: "1.125rem",
               }}
             >
-              <BiSolidTimeFive style={{ color: "#06B6D4" }} />
+              <BiSolidTimeFive color="#06B6D4" />
               <strong>Working Time:</strong>
             </div>
             <p style={{ color: "#4B5563" }}>Mon-Fri: 9:00-22:00</p>

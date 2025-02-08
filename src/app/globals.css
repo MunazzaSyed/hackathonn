@@ -16,7 +16,6 @@
   }
 }
 
-<<<<<<< HEAD
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -27,15 +26,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-=======
->>>>>>> ac0e253 (Updated files)
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-<<<<<<< HEAD
-=======
 
 @layer base {
   :root {
@@ -101,4 +96,3 @@ body {
     @apply bg-background text-foreground;
   }
 }
->>>>>>> ac0e253 (Updated files)
